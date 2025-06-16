@@ -1,27 +1,9 @@
-# Minimal Academic Website Template
+# Joshua Kartzman PhD Website
 
-A clean, minimal academic website template, designed for researchers and PhD students. The design and source code are from [Yuhui Zhang](https://cs.stanford.edu/~yuhuiz/).
+This is the repo for my PhD website. I got the source from [Yuhui Zhang's website](https://cs.stanford.edu/~yuhuiz/). It contains my news updates and papers.
 
-![Screenshot](images/demo.jpg)
+![Screenshot](images/profile.jpg)
 
-## Features
-
-- Minimalist, academic-focused design
-- Responsive layout
-- Easy to customize
-- SEO-friendly meta tags
-- Publication showcase support
-
-## Quick Start
-
-0. Clone this repository and `cd` into the directory
-1. Run `python -m http.server` and visit `http://localhost:8000`
-2. Replace placeholders marked with `[brackets]` in `index.html`
-3. Update profile photo in `images/profile.jpeg`
-4. Modify `publications.json` for your papers
-5. Customize sections as needed (About, Research, News, etc.)
-
-## File Structure
 
 ```
 .
@@ -33,10 +15,3 @@ A clean, minimal academic website template, designed for researchers and PhD stu
     └── profile.jpg
 ```
 
-## License
-
-MIT License
-
----
-
-For a live example, visit [Yuhui Zhang's website](https://cs.stanford.edu/~yuhuiz/).
