@@ -150,6 +150,20 @@ function createPublicationElement(publication) {
       pdfLink.textContent = '[PDF]';
       links.appendChild(pdfLink);
     }
+
+    if (publication.links.poster) {
+      const posterLink = document.createElement('a');
+      posterLink.href = publication.links.poster;
+      posterLink.textContent = '[POSTER]';
+      links.appendChild(posterLink);
+    }
+
+    if (publication.links.slides) {
+      const slidesLink = document.createElement('a');
+      slidesLink.href = publication.links.slides;
+      slidesLink.textContent = '[SLIDES]';
+      links.appendChild(slidesLink);
+    }
     
     if (publication.links.code) {
       const codeLink = document.createElement('a');
