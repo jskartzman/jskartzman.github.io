@@ -11,7 +11,9 @@
       "thumbnail": "images/sigmetrics.jpg",
       "selected": 1,
       "links": {
-        "pdf": "ai-crossroads25-paper87.pdf"
+        "pdf": "ai-crossroads25-paper87.pdf",
+        "slides": "Sigmetrics_Slides.pdf",
+        "poster": "Sigmetrics_Poster.pdf"
       }
     }
   ]
